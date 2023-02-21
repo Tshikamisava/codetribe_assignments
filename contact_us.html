@@ -48,14 +48,33 @@
         <td style="padding-left: 50PX;">
            <h2> Contact Us</h2>
             <P>
-      
-            <input type="text" class="input-field" placeholder="Your Name">
-            <input type="text" class="input-field" placeholder="Surname">
-            <input type="text" class="input-field" placeholder="Address">
-            <textarea type="text" class="input-field textarea-field" placeholder="Your Massage"></textarea>
-            <button type="button" class="btn">Send Message</button>
-          
+                <form
+                action="https://formspree.io/f/mpzedjea"
+                method="POST"
+              >
+              <form
+              action="https://formspree.io/f/mpzedjea"
+              method="POST"
+            >
 
+
+
+            <label>
+                Full Name:
+                <input type="full name" name="full name">
+              </label>
+
+              <label>
+                Your email:
+                <input type="email" name="email">
+              </label>
+              <label>
+                Your message:
+                <textarea name="message"></textarea>
+              </label>
+              <!-- your other form fields go here -->
+              <button type="submit">Send</button>
+            </form>
             </P>
 
         </td>
